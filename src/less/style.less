@@ -1,0 +1,117 @@
+@desktop: 1180px;
+@laptop: 930px;
+@mobile: 300px;
+@black: #1B1F2B;
+@orange: #efa501;
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: @black;
+  margin: 0;
+  width: 100%;
+}
+/* Основные темы для шрифтов */
+a {
+  text-decoration: none;
+  color: @black;
+}
+
+h1 {
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: bold;
+}
+
+h3 {
+  font-style: normal;
+}
+
+.p-big {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.p-normal {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.p-small {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+@media(min-width: @laptop) {
+  h1 {
+    font-size: 96px;
+    line-height: 105px;
+    letter-spacing: 0.02em;
+  }
+
+  h2 {
+    font-size: 59px;
+    line-height: 73px;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 122%;
+  }
+
+  .p-big {
+    font-size: 23px;
+    line-height: 28px;
+  }
+
+  .p-normal {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .p-small {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+
+@media(min-width: @mobile) and (max-width: @laptop) {
+  h1 {
+    font-size: 34px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+  }
+
+  h2 {
+    font-size: 34px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+  }
+
+  h3 {
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+  }
+
+  .p-big {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .p-normal {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .p-small {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
