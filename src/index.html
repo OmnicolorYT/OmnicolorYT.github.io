@@ -14,15 +14,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="page-header">
+    <header class="page-header" id="page-header">
         <nav class="page-header__nav">
             <div class="page-header__nav__positioner">
-                <a href="#" class="p-normal top"><img src="../img/header/YourTour_light.png" alt="YourTour"></a>
-                <a href="#" class="p-normal scroll"><img src="../img/header/YourTour_dark.png" alt="YourTour"></a>
-                <a href="#" class="p-normal">Туры</a>
-                <a href="#" class="p-normal">Создать тур</a>
-                <a href="#" class="p-normal">Отзывы</a>
-                <a href="#" class="p-normal">Истории</a>
+                <a href="#page-header" class="p-normal top"><img src="../img/header/YourTour_light.png" alt="YourTour"></a>
+                <a href="#page-header" class="p-normal scroll"><img src="../img/header/YourTour_dark.png" alt="YourTour"></a>
+                <a href="#choose-tour" class="p-normal">Туры</a>
+                <a href="#create-tour" class="p-normal">Создать тур</a>
+                <a href="#reviews" class="p-normal">Отзывы</a>
+                <a href="#stories" class="p-normal">Истории</a>
                 <a href="tel:+79999999999"  class="p-normal">+7 999 999 99 99</a>
             </div>
         </nav>
@@ -33,17 +33,17 @@
         </div>
     </header>
     <main class="page-main">
-        <section class="choose-tour">
+        <section class="choose-tour" id="choose-tour">
             <h2>Выбреи свой тур</h2>
             <div class="choose-tour__nav">
-                <a href="#" class="p-big">Популярные</a>
+                <a href="#" class="p-big selected">Популярные</a>
                 <a href="#" class="p-big">Авторские</a>
                 <a href="#" class="p-big">Походы</a>
                 <a href="#" class="p-big">Сплавы</a>
                 <a href="#" class="p-big">Велопрогулки</a>
             </div>
             <div class="choose-tour__cards">
-                <div class="choose-tour__card">
+                <div class="choose-tour__cards-card">
                     <h3>Путешествие в горы</h3>
                     <p class="p-small">от 80 000 руб</p>
                     <img src="../img/main/tour/card%20tour%20photo-1.jpg" alt="Фургон на фоне моря и гор">
@@ -54,7 +54,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="choose-tour__card">
+                <div class="choose-tour__cards-card">
                     <h3>Путешествие в горы</h3>
                     <p class="p-small">от 80 000 руб</p>
                     <img src="../img/main/tour/card%20tour%20photo-2.jpg" alt="Девушка в пустыне">
@@ -65,7 +65,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="choose-tour__card">
+                <div class="choose-tour__cards-card">
                     <h3>Путешествие в горы</h3>
                     <p class="p-small">от 80 000 руб</p>
                     <img src="../img/main/tour/card%20tour%20photo-3.jpg" alt="Утес на фоне моря и города">
@@ -76,7 +76,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="choose-tour__card">
+                <div class="choose-tour__cards-card">
                     <h3>Путешествие в горы</h3>
                     <p class="p-small">от 80 000 руб</p>
                     <img src="../img/main/tour/card%20tour%20photo-4.jpg" alt="Узкая улица с брусчаткой">
@@ -87,7 +87,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="choose-tour__card">
+                <div class="choose-tour__cards-card">
                     <h3>Путешествие в горы</h3>
                     <p class="p-small">от 80 000 руб</p>
                     <img src="../img/main/tour/card%20tour%20photo-5.jpg" alt="Домики в горах">
@@ -98,7 +98,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="choose-tour__card">
+                <div class="choose-tour__cards-card">
                     <h3>Путешествие в горы</h3>
                     <p class="p-small">от 80 000 руб</p>
                     <img src="../img/main/tour/card%20tour%20photo-6.jpg" alt="Человек на пирсе на фоне гор">
@@ -111,7 +111,7 @@
                 </div>
             </div>
         </section>
-        <div class="create-tour">
+        <div class="create-tour" id="create-tour">
             <h2>Собери свой тур</h2>
             <p class="p-normal">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
             <form action="" method="post">
@@ -165,7 +165,7 @@
                 </div>
             </form>
         </div>
-        <section class="reviews">
+        <section class="reviews" id="reviews">
             <h2>Отзывы наших путешественников</h2>
             <p class="p-normal">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
             <div class="reviews__card">
@@ -189,7 +189,7 @@
                 </div>
             </div>
         </section>
-        <section class="photos">
+        <section class="photos" id="photos">
             <h2>Фотографии путешествий</h2>
             <p class="p-normal">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
             <div class="photos__images">
@@ -208,7 +208,7 @@
                 <img src="../img/main/travel/travel%20photo-13.jpg" alt="Девушка на надувном круге с веслом">
             </div>
         </section>
-        <section class="stories">
+        <section class="stories" id="stories">
             <h2>История путешествий</h2>
             <p class="p-normal">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
             <div class="stories__card">

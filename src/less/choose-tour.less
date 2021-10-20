@@ -1,0 +1,59 @@
+@desktop: 1180px;
+@laptop: 930px;
+@mobile: 300px;
+@white: #ffffff;
+@black: #1B1F2B;
+@orange200: #EFA501;
+@orange100: #F8E6BE;
+
+.choose-tour{
+  display: flex;
+  flex-direction: column;
+  margin: 135px auto 0;
+  align-items: center;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  &__nav {
+    margin-top: 35px;
+    margin-bottom: 0;
+    display: flex;
+
+    a {
+      margin: 0 15px;
+    }
+
+    a:hover {
+      border-bottom: 2px solid @black;
+    }
+
+    a.selected, a:active {
+      border-bottom: 2px solid @orange200;
+      color: @orange200;
+    }
+  }
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    margin-top: 100px;
+
+    &-card {
+      width: 370px;
+      height: 531px;
+      margin: 15px;
+      position: relative;
+      border-radius: 50px;
+
+      &:first-child, &:nth-child(3n + 1) {
+        margin-left: 0;
+      }
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+    }
+  }
+}

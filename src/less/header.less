@@ -24,6 +24,10 @@
       color: @black;
     }
 
+    a:not(.top):not(.scroll):hover {
+      border-bottom: 2px solid @black;
+    }
+
     a.top {
       display: none;
     }
@@ -41,6 +45,10 @@
     height: 88px;
     width: 100%;
 
+    &:not(.scroll) a:not(.top):not(.scroll):hover {
+      border-bottom: 2px solid @white;
+    }
+
     &__positioner {
       margin: auto;
       display: flex;
@@ -48,10 +56,6 @@
 
       a {
         color: @white;
-      }
-
-      a:not(.top):not(.scroll):hover {
-        border-bottom: 2px solid @black;
       }
 
       a.scroll {
