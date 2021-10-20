@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/styles/choose-tour.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/styles/create-tour.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/styles/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/styles/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/styles/photos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/styles/reviews.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/styles/stories.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +34,9 @@
     <option name="defaultAccountId" value="8bd54791-295e-4955-a823-a5a935b2e9ed" />
   </component>
   <component name="ProjectId" id="1zlQUu3FMC8m2f75HbAibWnA0Mr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634720218813</updated>
       <workItem from="1634720221311" duration="1021000" />
-      <workItem from="1634722013595" duration="6751000" />
+      <workItem from="1634722013595" duration="7068000" />
     </task>
     <servers />
   </component>
