@@ -15,12 +15,17 @@
   color: @white;
   margin-top: 0;
 
+  a {
+    transition: 100ms ease;
+  }
+
   &__nav.scroll {
     background: rgba(243, 239, 232, 0.6);
     backdrop-filter: blur(54px);
     position: fixed;
 
     a {
+      height: 28px;
       color: @black;
     }
 
@@ -55,6 +60,7 @@
       height: 100%;
 
       a {
+        height: 28px;
         color: @white;
       }
 

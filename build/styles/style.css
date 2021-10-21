@@ -1,7 +1,7 @@
 .choose-tour {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 135px auto 0;
   align-items: center;
 }
 .choose-tour h2 {
@@ -9,40 +9,225 @@
   margin-bottom: 0;
 }
 .choose-tour__nav {
-  margin-top: 35px;
+  width: 100%;
   margin-bottom: 0;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .choose-tour__nav a {
-  margin: 0 15px;
-}
-.choose-tour__nav a:hover {
-  border-bottom: 2px solid #1B1F2B;
-}
-.choose-tour__nav a.selected,
-.choose-tour__nav a:active {
-  border-bottom: 2px solid #EFA501;
-  color: #EFA501;
+  font-weight: 700;
 }
 .choose-tour__cards {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1170px;
-  margin-top: 100px;
+  display: grid;
 }
 .choose-tour__cards-card {
-  width: 370px;
-  height: 531px;
-  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
-  border-radius: 50px;
+  color: #ffffff;
+  overflow: hidden;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
 }
-.choose-tour__cards-card:first-child,
-.choose-tour__cards-card:nth-child(3n + 1) {
-  margin-left: 0;
+.choose-tour__cards-card img {
+  align-self: center;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
 }
-.choose-tour__cards-card:nth-child(3n) {
-  margin-right: 0;
+.choose-tour__cards-card .card-info {
+  margin: 50px 50px 0;
+}
+.choose-tour__cards-card .card-info h3 {
+  margin: 0;
+}
+.choose-tour__cards-card .card-info p {
+  margin: 16px 0 0;
+}
+.choose-tour__cards-card .card-btn {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.choose-tour__cards-card .card-btn span {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+@media (min-width: 930px) {
+  .choose-tour {
+    margin: 135px auto 0;
+  }
+  .choose-tour__nav {
+    margin-top: 35px;
+  }
+  .choose-tour__nav a {
+    margin: 0 15px;
+    height: 34px;
+  }
+  .choose-tour__nav a:hover {
+    border-bottom: 2px solid #1B1F2B;
+  }
+  .choose-tour__nav a.selected,
+  .choose-tour__nav a:active {
+    border-bottom: 2px solid #EFA501;
+    color: #EFA501;
+  }
+  .choose-tour__cards {
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 531px 531px;
+    gap: 30px;
+    width: 1170px;
+    margin-top: 100px;
+  }
+  .choose-tour__cards-card {
+    border-radius: 50px;
+  }
+  .choose-tour__cards-card img {
+    border-radius: 50px;
+  }
+  .choose-tour__cards-card:hover img {
+    width: 120%;
+  }
+  .choose-tour__cards-card:hover .card-btn {
+    background-color: #286562;
+  }
+  .choose-tour__cards-card:active img {
+    width: 120%;
+  }
+  .choose-tour__cards-card:active .card-btn {
+    background-color: #EFA501;
+  }
+  .choose-tour__cards-card .card-info {
+    margin: 50px 50px 0;
+  }
+  .choose-tour__cards-card .card-info p {
+    margin: 16px 0 0;
+  }
+  .choose-tour__cards-card .card-btn {
+    margin: auto auto 43px 30px;
+    padding: 7px 20px;
+    width: 159px;
+    height: 28px;
+    border-radius: 50px;
+  }
+}
+@media (max-width: 1180px) and (min-width: 930px) {
+  .choose-tour {
+    margin: 135px auto 0;
+  }
+  .choose-tour br {
+    display: none;
+  }
+  .choose-tour__nav {
+    margin-top: 35px;
+  }
+  .choose-tour__nav a {
+    margin: 0 15px;
+    height: 34px;
+  }
+  .choose-tour__nav a:hover {
+    border-bottom: 2px solid #1B1F2B;
+  }
+  .choose-tour__nav a.selected,
+  .choose-tour__nav a:active {
+    border-bottom: 2px solid #EFA501;
+    color: #EFA501;
+  }
+  .choose-tour__cards {
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 531px 531px 531px;
+    gap: 18px;
+    width: 918px;
+    margin-top: 100px;
+  }
+  .choose-tour__cards-card {
+    border-radius: 50px;
+  }
+  .choose-tour__cards-card img {
+    border-radius: 50px;
+  }
+  .choose-tour__cards-card:hover img {
+    width: 120%;
+  }
+  .choose-tour__cards-card:hover .card-btn {
+    background-color: #286562;
+  }
+  .choose-tour__cards-card:active img {
+    width: 120%;
+  }
+  .choose-tour__cards-card:active .card-btn {
+    background-color: #EFA501;
+  }
+  .choose-tour__cards-card .card-info {
+    margin: 50px 50px 0;
+  }
+  .choose-tour__cards-card .card-info p {
+    margin: 16px 0 0;
+  }
+  .choose-tour__cards-card .card-btn {
+    margin: auto auto 43px 30px;
+    padding: 7px 20px;
+    width: 159px;
+    height: 28px;
+    border-radius: 50px;
+  }
+}
+@media (max-width: 930px) and (min-width: 300px) {
+  .choose-tour {
+    margin: 75px auto 0;
+  }
+  .choose-tour h2 {
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+  }
+  .choose-tour br {
+    display: none;
+  }
+  .choose-tour__nav {
+    margin-top: 30px;
+  }
+  .choose-tour__nav a {
+    margin: 0 10px;
+    height: 34px;
+  }
+  .choose-tour__cards {
+    grid-template-columns: 318px;
+    grid-template-rows: 318px 318px 318px 318px 318px 318px;
+    gap: 18px;
+    width: 318px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .choose-tour__cards-card {
+    border-radius: 20px;
+  }
+  .choose-tour__cards-card img {
+    border-radius: 20px;
+  }
+  .choose-tour__cards-card .card-info {
+    margin: 25px 25px 0;
+  }
+  .choose-tour__cards-card .card-info p {
+    margin: 13px 0 0;
+  }
+  .choose-tour__cards-card .card-btn {
+    margin: auto auto 25px 25px;
+    padding: 0 1.5px;
+    width: 123px;
+    height: 26px;
+  }
 }
 
 
@@ -56,12 +241,16 @@
   color: #ffffff;
   margin-top: 0;
 }
+.page-header a {
+  transition: 100ms ease;
+}
 .page-header__nav.scroll {
   background: rgba(243, 239, 232, 0.6);
   backdrop-filter: blur(54px);
   position: fixed;
 }
 .page-header__nav.scroll a {
+  height: 28px;
   color: #1B1F2B;
 }
 .page-header__nav.scroll a:not(.top):not(.scroll):hover {
@@ -90,6 +279,7 @@
   height: 100%;
 }
 .page-header__nav__positioner a {
+  height: 28px;
   color: #ffffff;
 }
 .page-header__nav__positioner a.scroll {

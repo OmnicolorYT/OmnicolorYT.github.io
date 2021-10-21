@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="../build/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="page-header" id="page-header">
@@ -34,81 +31,93 @@
     </header>
     <main class="page-main">
         <section class="choose-tour" id="choose-tour">
-            <h2>Выбреи свой тур</h2>
+            <h2>Выбери свой тур</h2>
             <div class="choose-tour__nav">
-                <a href="#" class="p-big selected">Популярные</a>
-                <a href="#" class="p-big">Авторские</a>
-                <a href="#" class="p-big">Походы</a>
-                <a href="#" class="p-big">Сплавы</a>
-                <a href="#" class="p-big">Велопрогулки</a>
+                <a href="#choose-tour" class="p-big selected">Популярные</a>
+                <a href="#choose-tour" class="p-big">Авторские</a>
+                <a href="#choose-tour" class="p-big">Походы</a>
+                <a href="#choose-tour" class="p-big">Сплавы</a>
+                <a href="#choose-tour" class="p-big">Велопрогулки</a>
             </div>
             <div class="choose-tour__cards">
-                <div class="choose-tour__cards-card">
-                    <h3>Путешествие в горы</h3>
-                    <p class="p-small">от 80 000 руб</p>
-                    <img src="../img/main/tour/card%20tour%20photo-1.jpg" alt="Фургон на фоне моря и гор">
-                    <a href="#">
-                        <span class="p-big">
-                            Подробнее
-                            <img src="../img/arrow%20bt.svg" alt="Стрелка влево">
-                        </span>
-                    </a>
-                </div>
-                <div class="choose-tour__cards-card">
-                    <h3>Путешествие в горы</h3>
-                    <p class="p-small">от 80 000 руб</p>
-                    <img src="../img/main/tour/card%20tour%20photo-2.jpg" alt="Девушка в пустыне">
-                    <a href="#">
-                        <span class="p-big">
-                            Подробнее
-                            <img src="../img/arrow%20bt.svg" alt="Стрелка влево">
-                        </span>
-                    </a>
-                </div>
-                <div class="choose-tour__cards-card">
-                    <h3>Путешествие в горы</h3>
-                    <p class="p-small">от 80 000 руб</p>
-                    <img src="../img/main/tour/card%20tour%20photo-3.jpg" alt="Утес на фоне моря и города">
-                    <a href="#">
-                        <span class="p-big">
-                            Подробнее
-                            <img src="../img/arrow%20bt.svg" alt="Стрелка влево">
-                        </span>
-                    </a>
-                </div>
-                <div class="choose-tour__cards-card">
-                    <h3>Путешествие в горы</h3>
-                    <p class="p-small">от 80 000 руб</p>
-                    <img src="../img/main/tour/card%20tour%20photo-4.jpg" alt="Узкая улица с брусчаткой">
-                    <a href="#">
-                        <span class="p-big">
-                            Подробнее
-                            <img src="../img/arrow%20bt.svg" alt="Стрелка влево">
-                        </span>
-                    </a>
-                </div>
-                <div class="choose-tour__cards-card">
-                    <h3>Путешествие в горы</h3>
-                    <p class="p-small">от 80 000 руб</p>
-                    <img src="../img/main/tour/card%20tour%20photo-5.jpg" alt="Домики в горах">
-                    <a href="#">
-                        <span class="p-big">
-                            Подробнее
-                            <img src="../img/arrow%20bt.svg" alt="Стрелка влево">
-                        </span>
-                    </a>
-                </div>
-                <div class="choose-tour__cards-card">
-                    <h3>Путешествие в горы</h3>
-                    <p class="p-small">от 80 000 руб</p>
-                    <img src="../img/main/tour/card%20tour%20photo-6.jpg" alt="Человек на пирсе на фоне гор">
-                    <a href="#">
-                        <span class="p-big">
-                            Подробнее
-                            <img src="../img/arrow%20bt.svg" alt="Стрелка влево">
-                        </span>
-                    </a>
-                </div>
+                <a class="choose-tour__cards-card">
+                    <img src="../img/main/tour/card%20tour%20photo-1.jpg" alt="фургон на фоне моря">
+                    <div class="card-info">
+                        <h3>Путешествие<br />в горы</h3>
+                        <p class="p-small">от 80 000 руб</p>
+                    </div>
+                    <div class="card-btn">
+                        <p class="p-big">Подробнее</p>
+                        <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z" fill="#ffffff"/>
+                        </svg>
+                    </div>
+                </a>
+                <a class="choose-tour__cards-card">
+                    <img src="../img/main/tour/card%20tour%20photo-2.jpg" alt="девушка в пустыне">
+                    <div class="card-info">
+                        <h3>Путешествие<br />в горы</h3>
+                        <p class="p-small">от 80 000 руб</p>
+                    </div>
+                    <div class="card-btn">
+                        <p class="p-big">Подробнее</p>
+                        <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z" fill="#ffffff"/>
+                        </svg>
+                    </div>
+                </a>
+                <a class="choose-tour__cards-card">
+                    <img src="../img/main/tour/card%20tour%20photo-3.jpg" alt="скалы на фоне моря">
+                    <div class="card-info">
+                        <h3>Путешествие<br />в горы</h3>
+                        <p class="p-small">от 80 000 руб</p>
+                    </div>
+                    <div class="card-btn">
+                        <p class="p-big">Подробнее</p>
+                        <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z" fill="#ffffff"/>
+                        </svg>
+                    </div>
+                </a>
+                <a class="choose-tour__cards-card">
+                    <img src="../img/main/tour/card%20tour%20photo-4.jpg" alt="узкая улица">
+                    <div class="card-info">
+                        <h3>Путешествие<br />в горы</h3>
+                        <p class="p-small">от 80 000 руб</p>
+                    </div>
+                    <div class="card-btn">
+                        <p class="p-big">Подробнее</p>
+                        <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z" fill="#ffffff"/>
+                        </svg>
+                    </div>
+                </a>
+                <a class="choose-tour__cards-card">
+                    <img src="../img/main/tour/card%20tour%20photo-5.jpg" alt="домики в горах">
+                    <div class="card-info">
+                        <h3>Путешествие<br />в горы</h3>
+                        <p class="p-small">от 80 000 руб</p>
+                    </div>
+                    <div class="card-btn">
+                        <p class="p-big">Подробнее</p>
+                        <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z" fill="#ffffff"/>
+                        </svg>
+                    </div>
+                </a>
+                <a class="choose-tour__cards-card">
+                    <img src="../img/main/tour/card%20tour%20photo-6.jpg" alt="человек на пирсе на фоне гор">
+                    <div class="card-info">
+                        <h3>Путешествие<br />в горы</h3>
+                        <p class="p-small">от 80 000 руб</p>
+                    </div>
+                    <div class="card-btn">
+                        <p class="p-big">Подробнее</p>
+                        <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z" fill="#ffffff"/>
+                        </svg>
+                    </div>
+                </a>
             </div>
         </section>
         <div class="create-tour" id="create-tour">
@@ -224,7 +233,12 @@
                     </ul>
                 </div>
                 <div class="story-card__links">
-                    <a href="#" class="p-big">Подробнее <img src="../img/arrow%20bt.svg" alt="Стрелка вправо"></a>
+                    <a href="#" class="p-big">Подробнее
+                        <object type="image/svg+xml"
+                                                                data="../img/arrow%20bt.svg">
+                            <img src="../img/arrow%20bt.svg" alt="Стрелка влево">
+                        </object>
+                    </a>
                     <div class="social p-normal">
                         <a href="#">instagram</a>
                         <a href="#">facebook</a>
@@ -239,7 +253,12 @@
                     <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>
                 </div>
                 <div class="story-card__links">
-                    <a href="#" class="p-big">Подробнее <img src="../img/arrow%20bt.svg" alt="Стрелка вправо"></a>
+                    <a href="#" class="p-big">Подробнее
+                        <object type="image/svg+xml"
+                                                                data="../img/arrow%20bt.svg">
+                            <img src="../img/arrow%20bt.svg" alt="Стрелка влево">
+                        </object>
+                    </a>
                     <div class="social p-normal">
                         <a href="#">instagram</a>
                         <a href="#">ВКонтакте</a>
@@ -253,7 +272,12 @@
                     <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>
                 </div>
                 <div class="story-card__links">
-                    <a href="#" class="p-big">Подробнее <img src="../img/arrow%20bt.svg" alt="Стрелка вправо"></a>
+                    <a href="#" class="p-big">Подробнее
+                        <object type="image/svg+xml"
+                                data="../img/arrow%20bt.svg">
+                            <img src="../img/arrow%20bt.svg" alt="Стрелка влево">
+                        </object>
+                    </a>
                     <div class="social p-normal">
                         <a href="#">instagram</a>
                         <a href="#">facebook</a>
