@@ -12,6 +12,7 @@
 </head>
 <body>
     <header class="page-header" id="page-header">
+        <!-- здесь добавить класс scroll, чтобы увидеть панель навигации при прокуртке -->
         <nav class="page-header__nav">
             <div class="page-header__nav__positioner">
                 <a href="#page-header" class="p-normal top"><img src="../img/header/YourTour_light.png" alt="YourTour"></a>
@@ -29,10 +30,13 @@
             <button class="btn p-small">Найти тур</button>
         </div>
     </header>
+
+
     <main class="page-main">
         <section class="choose-tour" id="choose-tour">
             <h2>Выбери свой тур</h2>
             <div class="choose-tour__nav">
+                <!-- Здесь в тег <a> можно изменять класс selected для каждого тега, чтобы увидеть их стиль, когда они выбраны -->
                 <a href="#choose-tour" class="p-big selected">Популярные</a>
                 <a href="#choose-tour" class="p-big">Авторские</a>
                 <a href="#choose-tour" class="p-big">Походы</a>
@@ -120,16 +124,20 @@
                 </a>
             </div>
         </section>
+
+
         <div class="create-tour" id="create-tour">
             <h2>Собери свой тур</h2>
-            <p class="p-normal">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+            <p class="p-normal">Идейные соображения высшего порядка,<br />а также рамки и место обучения кадров</p>
             <form action="" method="post">
                 <div class="create-tour__part half-width p-normal">
                     <label for="name">Имя</label>
-                    <input type="text" id="name" name="name" placeholder="Введите ваше имя" class="input__half-width">
+                    <input type="text" id="name" name="name" placeholder="Введите Ваше имя" class="input__half-width">
                 </div>
                 <div class="create-tour__part half-width p-normal">
                     <label for="direction">Направление</label>
+
+                    <!-- Здесь в тег <select> добавить класс selected, чтобы увидеть стиль, когда будет выбран какой либо пункт -->
                     <select id="direction" name="direction" class="input__half-width">
                         <option value="">Куда хотите ехать</option>
                         <option value="mountains">Путешествие в горы</option>
@@ -138,32 +146,35 @@
                 </div>
                 <div class="create-tour__part half-width p-normal">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email"  placeholder="example@gmail.com" class="input__half-width">
+                    <input type="email" id="email" name="email"  placeholder="example@mail.com" class="input__half-width">
                 </div>
                 <div class="create-tour__part half-width p-normal">
                     <label for="number">Телефон</label>
-                    <input type="tel" id="number" name="number" placeholder="+7 (___)___-__-__" class="input__half-width">
+                    <input type="tel" id="number" name="number" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" class="input__half-width">
                 </div>
                 <div class="create-tour__part half-width p-normal">
                     <label for="start-date">Дата от</label>
-                    <input type="text" id="start-date" name="start-date" placeholder="ДД.ММ.ГГГГ" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" class="input__half-width">
+                    <input type="number" id="start-date" name="start-date" placeholder="ДД.ММ.ГГГГ" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" class="input__half-width">
                 </div>
                 <div class="create-tour__part half-width p-normal">
                     <label for="end-date">Дата до</label>
-                    <input type="text" id="end-date" name="end-date" placeholder="ДД.ММ.ГГГГ" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" class="input__half-width">
+                    <input type="number" id="end-date" name="end-date" placeholder="ДД.ММ.ГГГГ" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" class="input__half-width">
                 </div>
                 <div class="create-tour__part full-width p-normal">
                     <label for="comment">Комментарий</label>
-                    <textarea id="comment" name="comment"></textarea>
+                    <br />
+                    <textarea id="comment" name="comment" class="comment"></textarea>
                 </div>
-                <div class="create-tour__part radio-buttons p-normal full-width">
+                <div class="create-tour__part edge p-normal full-width">
                     <p>Вам есть 18 лет?</p>
-                    <label>
-                        <input type="radio" name="18-years" value="yes"> Да
-                    </label>
-                    <label>
-                        <input type="radio" name="18-years" value="no"> Нет
-                    </label>
+                    <div class="radio-buttons">
+                        <label>
+                            <input type="radio" name="18-years" value="yes">Да
+                        </label>
+                        <label>
+                            <input type="radio" name="18-years" value="no">Нет
+                        </label>
+                    </div>
                 </div>
                 <div class="create-tour__part accept-license full-width">
                     <input type="checkbox" id="accept" name="accept">
@@ -175,6 +186,8 @@
                 </div>
             </form>
         </div>
+
+        <!-- TODO: прописать оставшиеся стили для отзывов, фотографий, историй и футера -->
         <section class="reviews" id="reviews">
             <h2>Отзывы наших путешественников</h2>
             <p class="p-normal">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
@@ -199,6 +212,8 @@
                 </div>
             </div>
         </section>
+
+
         <section class="photos" id="photos">
             <h2>Фотографии путешествий</h2>
             <p class="p-normal">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
@@ -218,6 +233,8 @@
                 <img src="../img/main/travel/travel%20photo-13.jpg" alt="Девушка на надувном круге с веслом">
             </div>
         </section>
+
+
         <section class="stories" id="stories">
             <h2>История путешествий</h2>
             <p class="p-normal">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
@@ -287,14 +304,9 @@
                 </div>
             </div>
         </section>
-        <section class="start-tour">
-            <img src="../img/main/footer%20photo.jpg" alt="Домики на равнине с озером и деревьями">
-            <div class="start-tour__info">
-                <h3>Пора в путешествие вместе с нами!</h3>
-                <p class="p-normal">Напиши на почту и узнай подробности на <a href="mailto:yourtour@gmail.com">yourtour@gmail.com</a></p>
-            </div>
-        </section>
     </main>
+
+
     <footer class="page-footer p-normal">
         <section class="start-tour">
             <img src="../img/main/footer%20photo.jpg" alt="Домики на равнине с озером и деревьями">

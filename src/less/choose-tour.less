@@ -85,7 +85,7 @@
 
 @media (min-width: @laptop) {
   .choose-tour{
-    margin: 135px auto 0;
+    margin: 134px auto 0;
 
     &__nav {
       margin-top: 35px;
@@ -119,8 +119,10 @@
         }
 
         &:hover {
+          cursor: pointer;
+
           img {
-            width: 120%;
+            transform: scale(1.2);
           }
 
           .card-btn {
@@ -129,9 +131,6 @@
         }
 
         &:active {
-          img {
-            width: 120%;
-          }
 
           .card-btn {
             background-color: @orange200;
@@ -160,7 +159,7 @@
 
 @media(max-width: @desktop) and (min-width: @laptop) {
   .choose-tour{
-    margin: 135px auto 0;
+    margin: 134px auto 0;
 
     br {
       display: none;
@@ -198,8 +197,10 @@
         }
 
         &:hover {
+          cursor: pointer;
+
           img {
-            width: 120%;
+            transform: scale(1.2);
           }
 
           .card-btn {
@@ -208,9 +209,6 @@
         }
 
         &:active {
-          img {
-            width: 120%;
-          }
 
           .card-btn {
             background-color: @orange200;
@@ -253,10 +251,17 @@
 
     &__nav {
       margin-top: 30px;
+      gap: 10px;
+      width: 270px;
 
       a {
-        margin: 0 10px;
-        height: 34px;
+        margin: 0;
+        height: 22px;
+      }
+
+      a.selected, a:active {
+        border-bottom: 2px solid @orange200;
+        color: @orange200;
       }
     }
     &__cards {
@@ -280,6 +285,14 @@
 
           p {
             margin: 13px 0 0;
+          }
+        }
+
+        &:hover {
+          cursor: pointer;
+
+          img {
+            transform: scale(1.2);
           }
         }
 
