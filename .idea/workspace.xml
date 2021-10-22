@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/create-tour.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/create-tour.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/reviews.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/reviews.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +55,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.18.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.18.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.29" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/gulpfile.js" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -89,6 +93,7 @@
       <workItem from="1634887100157" duration="4623000" />
       <workItem from="1634828499788" duration="14421000" />
       <workItem from="1634931207251" duration="4000" />
+      <workItem from="1634937370081" duration="2799000" />
     </task>
     <task id="LOCAL-00001" summary="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <created>1634931098087</created>
