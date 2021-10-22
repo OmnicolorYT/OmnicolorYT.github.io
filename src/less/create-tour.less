@@ -1,0 +1,74 @@
+@desktop: 1180px;
+@laptop: 930px;
+@mobile: 300px;
+@white: #ffffff;
+@black: #1B1F2B;
+@orange200: #EFA501;
+@orange100: #F8E6BE;
+@green400: #286562;
+@gray300: #A6A6A6;
+@beige100: #F9F7F4;
+@beige200:#F4F0E9;
+
+.create-tour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin: 135px 0 0 0;
+  }
+
+  & > p {
+    width: 418px;
+    margin: 30px 0 0 0;
+    color: @gray300;
+    text-align: center;
+  }
+
+  form {
+    background: @white;
+    border-radius: 50px;
+    padding: 70px;
+    margin-top: 100px;
+    width: 1170px;
+    height: 986px;
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: 104px 104px 104px 188px 64px 26px 58px;
+    column-gap: 30px;
+    row-gap: 33px;
+
+    .full-width {
+      grid-column: 1/3;
+    }
+
+    .input__half-width {
+      width: 500px;
+      height: 68px;
+      background-color: @beige100;
+      border: 1px solid @beige200;
+      border-radius: 10px;
+    }
+
+    input, select {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 142%;
+    }
+
+    select option:first-child {
+      display: none;
+    }
+
+    #direction[value=""] {
+      color: @gray300;
+    }
+
+    #direction:not([value=""]) {
+      color: @black;
+    }
+  }
+}
