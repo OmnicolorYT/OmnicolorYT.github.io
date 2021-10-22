@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="">
+    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/choose-tour.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/choose-tour.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/create-tour.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/create-tour.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/header.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/style.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +88,16 @@
       <workItem from="1634828499788" duration="13311000" />
       <workItem from="1634887100157" duration="4623000" />
       <workItem from="1634828499788" duration="14421000" />
+      <workItem from="1634931207251" duration="4000" />
     </task>
+    <task id="LOCAL-00001" summary="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
+      <created>1634931098087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634931098087</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,5 +114,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций." />
+    <option name="LAST_COMMIT_MESSAGE" value="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций." />
   </component>
 </project>
