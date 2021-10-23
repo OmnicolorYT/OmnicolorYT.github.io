@@ -1,0 +1,216 @@
+@desktop: 1180px;
+@laptop: 930px;
+@mobile: 300px;
+@path: "/img/main/travel/travel%20photo-";
+
+.photos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  &__images {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+
+    & > div {
+      width: 100%;
+    }
+
+    &_first_row, &_third_row {
+      display: grid;
+    }
+
+    &_second_row {
+      display: grid;
+    }
+
+    .image {
+      position: relative;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+@media (min-width: @laptop) {
+  .photos {
+
+    h2 {
+      margin: 135px auto 0;
+    }
+
+    p {
+      width: 418px;
+      margin: 30px auto 0;
+    }
+
+    &__images {
+      margin: 100px 0 0;
+      height: 963px;
+      padding: 0 30px;
+
+      & > div {
+        &:not(:first-child) {
+          margin-top: 30px;
+        }
+      }
+
+      &_first_row, &_third_row {
+        height: 300px;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 30px;
+      }
+
+      &_second_row {
+        height: 300px;
+        grid-template-columns: repeat(5, 1fr);
+        column-gap: 30px;
+      }
+
+      .image {
+        border-radius: 50px;
+      }
+    }
+  }
+}
+
+@media(max-width: @desktop) and (min-width: @laptop) {
+  .photos {
+
+    h2 {
+      margin: 135px auto 0;
+    }
+
+    p {
+      width: 418px;
+      margin: 30px auto 0;
+    }
+
+    &__images {
+      margin: 100px 0 0;
+      height: 963px;
+      padding: 0 20px;
+
+      & > div {
+        &:not(:first-child) {
+          margin-top: 30px;
+        }
+      }
+
+      &_first_row, &_third_row {
+        height: 300px;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+      }
+
+      &_first_row {
+        .image:nth-child(2) {
+          display: none;
+        }
+      }
+
+      &_third_row {
+        .image:last-child {
+          display: none;
+        }
+      }
+
+      &_second_row {
+        height: 300px;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+
+        .image:nth-child(3) {
+          display: none;
+        }
+      }
+
+      .image {
+        border-radius: 50px;
+      }
+    }
+  }
+}
+@media (max-width: @laptop) and (min-width: @mobile) {
+  .photos {
+
+    h2 {
+      margin: 75px auto 0;
+    }
+
+    p {
+      width: 318px;
+      margin: 20px auto 0;
+    }
+
+    &__images {
+      margin: 50px 0 0;
+      height: 366px;
+      padding: 0 21px;
+
+      & > div {
+        &:not(:first-child) {
+          margin-top: 18px;
+        }
+      }
+
+      &_first_row {
+        .image:nth-child(2),
+        .image:nth-child(3) {
+          display: none;
+        }
+      }
+
+      &_third_row {
+        .image:last-child,
+        .image:nth-child(3){
+          display: none;
+        }
+      }
+
+      &_first_row {
+        height: 110px;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 18px;
+      }
+      &_third_row {
+        height: 110px;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+      }
+
+      &_second_row {
+        .image:nth-child(3),
+        .image:nth-child(2) {
+          display: none;
+        }
+        height: 110px;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+      }
+
+      .image {
+        border-radius: 20px;
+      }
+    }
+  }
+}
