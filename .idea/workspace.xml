@@ -6,10 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/footer.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/less/photos.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/photos.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/stories.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/stories.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/body_style.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +72,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rhenz\Desktop\Web\first_ex\build" />
       <recent name="C:\Users\rhenz\Desktop\Web\first_ex" />
       <recent name="C:\Users\rhenz\Desktop\Web\first_ex\src" />
-      <recent name="C:\Users\rhenz\Desktop\Web\first_ex\build" />
       <recent name="C:\Users\rhenz\Desktop\Web\first_ex\src\img" />
       <recent name="C:\Users\rhenz\Desktop\Web\first_ex\src\less" />
     </key>
@@ -94,7 +97,7 @@
       <workItem from="1634828499788" duration="14421000" />
       <workItem from="1634931207251" duration="4000" />
       <workItem from="1634937370081" duration="3595000" />
-      <workItem from="1634994195910" duration="10030000" />
+      <workItem from="1634994195910" duration="21356000" />
     </task>
     <task id="LOCAL-00001" summary="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <created>1634931098087</created>
