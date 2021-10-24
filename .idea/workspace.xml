@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
-      <change afterPath="$PROJECT_DIR$/build/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/styles/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-    </list>
+    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Проект подготовлен к отправке на проверку" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +89,7 @@
       <workItem from="1634931207251" duration="4000" />
       <workItem from="1634937370081" duration="3595000" />
       <workItem from="1634994195910" duration="22206000" />
-      <workItem from="1635026454278" duration="177000" />
+      <workItem from="1635026454278" duration="409000" />
     </task>
     <task id="LOCAL-00001" summary="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <created>1634931098087</created>
@@ -104,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634931098087</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Проект подготовлен к отправке на проверку">
+      <created>1635062960744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635062960744</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций." />
-    <option name="LAST_COMMIT_MESSAGE" value="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций." />
+    <MESSAGE value="Проект подготовлен к отправке на проверку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проект подготовлен к отправке на проверку" />
   </component>
 </project>
