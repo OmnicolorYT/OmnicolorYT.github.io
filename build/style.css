@@ -364,6 +364,13 @@ h3 {
   background-color: #F9F7F4;
   border: 1px solid #F4F0E9;
 }
+.create-tour form input::-webkit-outer-spin-button,
+.create-tour form input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
 .create-tour form input::-webkit-input-placeholder {
   color: #A6A6A6;
 }
@@ -372,13 +379,10 @@ h3 {
 }
 .create-tour form select {
   color: #A6A6A6;
-  background: url("/img/ic-dropdown.svg") no-repeat right #F9F7F4;
+  background: url("img/ic-dropdown.svg") no-repeat right #F9F7F4;
   -webkit-appearance: none;
 }
 .create-tour form select option {
-  color: #1B1F2B;
-}
-.create-tour form select.selected {
   color: #1B1F2B;
 }
 .create-tour form .comment {
@@ -409,11 +413,11 @@ h3 {
 .create-tour form .edge .radio-buttons label input {
   -webkit-appearance: none;
   border: none;
-  background: url("/img/radiobutton.svg") left center no-repeat;
+  background: url("img/radiobutton.svg") left center no-repeat;
   background-size: cover;
 }
 .create-tour form .edge .radio-buttons label input:checked {
-  background: url("/img/radiobutton_checked.svg") left center no-repeat;
+  background: url("img/radiobutton_checked.svg") left center no-repeat;
 }
 .create-tour form .accept-license {
   display: flex;
@@ -429,10 +433,10 @@ h3 {
   -webkit-appearance: none;
   border: none;
   border-radius: 0;
-  background: url("/img/checkbox.svg") left center no-repeat;
+  background: url("img/checkbox.svg") left center no-repeat;
 }
 .create-tour form .accept-license input:checked {
-  background: url("/img/checkbox_checked.svg") left center no-repeat;
+  background: url("img/checkbox_checked.svg") left center no-repeat;
 }
 .create-tour form .accept-license label {
   color: #A6A6A6;
@@ -483,13 +487,13 @@ h3 {
     padding: 20px;
     margin-top: 8px;
   }
-  .create-tour form input:hover,
-  .create-tour form select:hover {
+  .create-tour form input:not([type="radio"]):not([type="checkbox"]):hover,
+  .create-tour form select:not([type="radio"]):not([type="checkbox"]):hover {
     background-color: #F4F0E9;
     cursor: pointer;
   }
-  .create-tour form input:focus,
-  .create-tour form select:focus {
+  .create-tour form input:not([type="radio"]):not([type="checkbox"]):focus,
+  .create-tour form select:not([type="radio"]):not([type="checkbox"]):focus {
     background-color: #F4F0E9;
     outline: 1px solid #A6A6A6;
   }
@@ -565,15 +569,23 @@ h3 {
     background-color: #3B7E7B;
     cursor: pointer;
   }
+  .create-tour form .buttons input:first-child:focus {
+    outline: none;
+  }
   .create-tour form .buttons input:first-child:active {
     background-color: #627F7E;
+    outline: none;
   }
   .create-tour form .buttons input:last-child:hover {
     background-color: #F1F3F2;
     cursor: pointer;
   }
+  .create-tour form .buttons input:last-child:focus {
+    outline: none;
+  }
   .create-tour form .buttons input:last-child:active {
     background-color: #D9DFDB;
+    outline: none;
   }
 }
 @media (max-width: 1180px) and (min-width: 930px) {
@@ -1027,7 +1039,7 @@ footer .page-footer__socials a:hover {
 }
 
 .page-header {
-  background-image: url("/img/header/header-img.jpg");
+  background-image: url("img/header/header-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1037,6 +1049,7 @@ footer .page-footer__socials a:hover {
 }
 .page-header a {
   transition: 100ms ease;
+  box-sizing: border-box;
 }
 .page-header__nav.scroll {
   background: rgba(243, 239, 232, 0.6);
@@ -1070,6 +1083,7 @@ footer .page-footer__socials a:hover {
 .page-header__nav__positioner {
   margin: auto;
   display: flex;
+  align-items: center;
   height: 100%;
 }
 .page-header__nav__positioner a {
@@ -1108,6 +1122,7 @@ footer .page-footer__socials a:hover {
   padding: 5px 20px;
   border: none;
   border-radius: 10px;
+  transition: 200ms ease;
 }
 .page-header__text button:hover {
   background: #EFA501;
@@ -1126,7 +1141,8 @@ footer .page-footer__socials a:hover {
     width: 1168px;
   }
   .page-header__nav__positioner a {
-    margin: auto 25px;
+    margin: 0 25px;
+    padding: 0;
   }
   .page-header__text h1 {
     margin: 119px 0 0;
@@ -1148,7 +1164,7 @@ footer .page-footer__socials a:hover {
     width: 910px;
   }
   .page-header__nav__positioner a {
-    margin: auto 15px;
+    margin: 0 15px;
   }
   .page-header__text h1 {
     margin: 119px 0 0;
@@ -1173,7 +1189,7 @@ footer .page-footer__socials a:hover {
     display: none;
   }
   .page-header__nav__positioner a {
-    margin: auto 15px;
+    margin: 0 15px;
   }
   .page-header__nav__positioner a img {
     width: 133px;
@@ -1190,7 +1206,6 @@ footer .page-footer__socials a:hover {
     margin: 40px 0 0;
   }
 }
-
 
 .photos {
   width: 100%;

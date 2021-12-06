@@ -4,8 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Проект подготовлен к отправке на проверку">
+    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Русский язык">
+      <change afterPath="$PROJECT_DIR$/git.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/header/YourTour_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/header/YourTour_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/header/YourTour_light.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/header/YourTour_light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/header/header-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/header/header-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/footer photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/footer photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/review/review photo-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/review/review photo-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/review/review photo-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/review/review photo-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/story/story photo-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/story/story photo-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/story/story photo-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/story/story photo-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/story/story photo-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/story/story photo-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/tour/card tour photo-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/tour/card tour photo-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/tour/card tour photo-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/tour/card tour photo-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/tour/card tour photo-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/tour/card tour photo-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/tour/card tour photo-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/tour/card tour photo-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/tour/card tour photo-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/tour/card tour photo-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/tour/card tour photo-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/tour/card tour photo-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/travel/travel photo-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/travel/travel photo-9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/create-tour.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/create-tour.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/header.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +86,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.18.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.17.29" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulpfile.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -92,7 +125,11 @@
       <workItem from="1634937370081" duration="3595000" />
       <workItem from="1634994195910" duration="22206000" />
       <workItem from="1635026454278" duration="409000" />
-      <workItem from="1635063012064" duration="295000" />
+      <workItem from="1635063012064" duration="1175000" />
+      <workItem from="1635326247954" duration="2742000" />
+      <workItem from="1635703876397" duration="595000" />
+      <workItem from="1638513271294" duration="52000" />
+      <workItem from="1638797472866" duration="5458000" />
     </task>
     <task id="LOCAL-00001" summary="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <created>1634931098087</created>
@@ -108,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635062960744</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Русский язык">
+      <created>1635063324870</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635063324870</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +173,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций." />
     <MESSAGE value="Проект подготовлен к отправке на проверку" />
-    <option name="LAST_COMMIT_MESSAGE" value="Проект подготовлен к отправке на проверку" />
+    <MESSAGE value="Русский язык" />
+    <option name="LAST_COMMIT_MESSAGE" value="Русский язык" />
   </component>
 </project>

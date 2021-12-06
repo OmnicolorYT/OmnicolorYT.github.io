@@ -37,6 +37,12 @@
       background-color: @beige100;
       border: 1px solid @beige200;
     }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      /* display: none; <- Crashes Chrome on hover */
+      -webkit-appearance: none;
+      margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    }
 
     input::-webkit-input-placeholder {
       color: @gray300;
@@ -52,10 +58,6 @@
       -webkit-appearance: none;
 
       option {
-        color: @black;
-      }
-
-      &.selected {
         color: @black;
       }
     }
@@ -186,12 +188,12 @@
         padding: 20px;
         margin-top: 8px;
 
-        &:hover {
+        &:not([type="radio"]):not([type="checkbox"]):hover {
           background-color: @beige200;
           cursor: pointer;
         }
 
-        &:focus {
+        &:not([type="radio"]):not([type="checkbox"]):focus {
           background-color: @beige200;
           outline: 1px solid @gray300;
         }
@@ -296,8 +298,13 @@
               cursor: pointer;
             }
 
+            &:focus {
+              outline: none;
+            }
+
             &:active {
               background-color: @green200;
+              outline: none;
             }
           }
 
@@ -308,8 +315,13 @@
               cursor: pointer;
             }
 
+            &:focus {
+              outline: none;
+            }
+
             &:active {
               background-color: @gray200;
+              outline: none;
             }
           }
         }
