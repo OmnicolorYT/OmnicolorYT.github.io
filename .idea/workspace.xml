@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Исправлены общие ошибки&#10;Необходимо исправить ошибки на мобильной версии">
+    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="пересобран проект">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +96,7 @@
       <workItem from="1635326247954" duration="2742000" />
       <workItem from="1635703876397" duration="595000" />
       <workItem from="1638513271294" duration="52000" />
-      <workItem from="1638797472866" duration="7728000" />
+      <workItem from="1638797472866" duration="8944000" />
     </task>
     <task id="LOCAL-00001" summary="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <created>1634931098087</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638809908902</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="пересобран проект">
+      <created>1638814462215</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638814462215</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +156,7 @@
     <MESSAGE value="Проект подготовлен к отправке на проверку" />
     <MESSAGE value="Русский язык" />
     <MESSAGE value="Исправлены общие ошибки&#10;Необходимо исправить ошибки на мобильной версии" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлены общие ошибки&#10;Необходимо исправить ошибки на мобильной версии" />
+    <MESSAGE value="пересобран проект" />
+    <option name="LAST_COMMIT_MESSAGE" value="пересобран проект" />
   </component>
 </project>
