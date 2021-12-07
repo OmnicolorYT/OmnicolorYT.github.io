@@ -7,7 +7,7 @@ gulp.task('less_constructor', function() {
     return gulp.src(src_path)
         .pipe(less())
         .pipe(concat('style.css'))
-        .pipe(gulp.dest('build'))
+        .pipe(gulp.dest('docs'))
 })
 
 gulp.task('watch', function(){
