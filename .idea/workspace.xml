@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Изменено название папки с билдом build -&gt; docs">
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/docs/favicon.ico" afterDir="false" />
+    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Попытка пофиксить favicon">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rhenz\Desktop\Web\first_exercise\docs" />
+      <recent name="C:\Users\rhenz\Desktop\Web\first_exercise\docs\img" />
       <recent name="C:\Users\rhenz\Desktop\Web\first_ex\build" />
       <recent name="C:\Users\rhenz\Desktop\Web\first_ex" />
       <recent name="C:\Users\rhenz\Desktop\Web\first_ex\src" />
-      <recent name="C:\Users\rhenz\Desktop\Web\first_ex\src\img" />
-      <recent name="C:\Users\rhenz\Desktop\Web\first_ex\src\less" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -108,7 +107,7 @@
       <workItem from="1638797472866" duration="9236000" />
       <workItem from="1638818470788" duration="764000" />
       <workItem from="1638911751875" duration="452000" />
-      <workItem from="1638912631268" duration="1482000" />
+      <workItem from="1638912631268" duration="1852000" />
     </task>
     <task id="LOCAL-00001" summary="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <created>1634931098087</created>
@@ -173,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638913746903</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Перемещен favicon в папку со сборкой">
+      <created>1638914155060</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638914155060</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Попытка пофиксить favicon">
+      <created>1638914408481</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1638914408481</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +212,8 @@
     <MESSAGE value="пересобран проект" />
     <MESSAGE value="Пересобран проект для github (перестал работать github pages, поэтому пришлось создать новый репозиторий)" />
     <MESSAGE value="Изменено название папки с билдом build -&gt; docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменено название папки с билдом build -&gt; docs" />
+    <MESSAGE value="Перемещен favicon в папку со сборкой" />
+    <MESSAGE value="Попытка пофиксить favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Попытка пофиксить favicon" />
   </component>
 </project>
