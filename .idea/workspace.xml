@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Пересобран проект для github (перестал работать github pages, поэтому пришлось создать новый репозиторий)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Изменено название папки с билдом build -&gt; docs">
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/docs/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,7 @@
       <workItem from="1638797472866" duration="9236000" />
       <workItem from="1638818470788" duration="764000" />
       <workItem from="1638911751875" duration="452000" />
-      <workItem from="1638912631268" duration="1050000" />
+      <workItem from="1638912631268" duration="1482000" />
     </task>
     <task id="LOCAL-00001" summary="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <created>1634931098087</created>
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638912683398</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Изменено название папки с билдом build -&gt; docs">
+      <created>1638913746903</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638913746903</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +198,7 @@
     <MESSAGE value="Исправлены общие ошибки&#10;Необходимо исправить ошибки на мобильной версии" />
     <MESSAGE value="пересобран проект" />
     <MESSAGE value="Пересобран проект для github (перестал работать github pages, поэтому пришлось создать новый репозиторий)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пересобран проект для github (перестал работать github pages, поэтому пришлось создать новый репозиторий)" />
+    <MESSAGE value="Изменено название папки с билдом build -&gt; docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменено название папки с билдом build -&gt; docs" />
   </component>
 </project>
