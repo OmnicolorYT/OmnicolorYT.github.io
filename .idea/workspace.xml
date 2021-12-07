@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Попытка пофиксить favicon">
+    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Пересобраны файлы less">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +107,7 @@
       <workItem from="1638797472866" duration="9236000" />
       <workItem from="1638818470788" duration="764000" />
       <workItem from="1638911751875" duration="452000" />
-      <workItem from="1638912631268" duration="1852000" />
+      <workItem from="1638912631268" duration="2219000" />
     </task>
     <task id="LOCAL-00001" summary="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <created>1634931098087</created>
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638914408481</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Пересобраны файлы less">
+      <created>1638914597311</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1638914597311</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +221,7 @@
     <MESSAGE value="Изменено название папки с билдом build -&gt; docs" />
     <MESSAGE value="Перемещен favicon в папку со сборкой" />
     <MESSAGE value="Попытка пофиксить favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Попытка пофиксить favicon" />
+    <MESSAGE value="Пересобраны файлы less" />
+    <option name="LAST_COMMIT_MESSAGE" value="Пересобраны файлы less" />
   </component>
 </project>
