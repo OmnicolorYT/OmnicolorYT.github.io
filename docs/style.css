@@ -613,13 +613,13 @@ h3 {
     padding: 20px;
     margin-top: 8px;
   }
-  .create-tour form input:hover,
-  .create-tour form select:hover {
+  .create-tour form input:not([type="radio"]):not([type="checkbox"]):hover,
+  .create-tour form select:not([type="radio"]):not([type="checkbox"]):hover {
     background-color: #F4F0E9;
     cursor: pointer;
   }
-  .create-tour form input:focus,
-  .create-tour form select:focus {
+  .create-tour form input:not([type="radio"]):not([type="checkbox"]):focus,
+  .create-tour form select:not([type="radio"]):not([type="checkbox"]):focus {
     background-color: #F4F0E9;
     outline: 1px solid #A6A6A6;
   }
@@ -695,15 +695,23 @@ h3 {
     background-color: #3B7E7B;
     cursor: pointer;
   }
+  .create-tour form .buttons input:first-child:focus {
+    outline: none;
+  }
   .create-tour form .buttons input:first-child:active {
     background-color: #627F7E;
+    outline: none;
   }
   .create-tour form .buttons input:last-child:hover {
     background-color: #F1F3F2;
     cursor: pointer;
   }
+  .create-tour form .buttons input:last-child:focus {
+    outline: none;
+  }
   .create-tour form .buttons input:last-child:active {
     background-color: #D9DFDB;
+    outline: none;
   }
 }
 @media (max-width: 930px) and (min-width: 300px) {
@@ -733,8 +741,8 @@ h3 {
     padding: 10px;
     margin-top: 8px;
   }
-  .create-tour form input:focus,
-  .create-tour form select:focus {
+  .create-tour form input:not([type="radio"]):not([type="checkbox"]):focus,
+  .create-tour form select:not([type="radio"]):not([type="checkbox"]):focus {
     background-color: #F4F0E9;
     outline: 1px solid #A6A6A6;
   }
@@ -802,6 +810,7 @@ h3 {
   }
   .create-tour form .accept-license input:checked {
     background-size: cover;
+    border: none;
   }
   .create-tour form .accept-license label a:active {
     color: #286562;
@@ -817,11 +826,19 @@ h3 {
     width: 134px;
     height: 47px;
   }
+  .create-tour form .buttons input:first-child:focus {
+    outline: none;
+  }
   .create-tour form .buttons input:first-child:active {
     background-color: #627F7E;
+    outline: none;
+  }
+  .create-tour form .buttons input:last-child:focus {
+    outline: none;
   }
   .create-tour form .buttons input:last-child:active {
     background-color: #D9DFDB;
+    outline: none;
   }
 }
 

@@ -365,12 +365,12 @@
         padding: 20px;
         margin-top: 8px;
 
-        &:hover {
+        &:not([type="radio"]):not([type="checkbox"]):hover {
           background-color: @beige200;
           cursor: pointer;
         }
 
-        &:focus {
+        &:not([type="radio"]):not([type="checkbox"]):focus {
           background-color: @beige200;
           outline: 1px solid @gray300;
         }
@@ -475,8 +475,13 @@
               cursor: pointer;
             }
 
+            &:focus {
+              outline: none;
+            }
+
             &:active {
               background-color: @green200;
+              outline: none;
             }
           }
 
@@ -487,8 +492,13 @@
               cursor: pointer;
             }
 
+            &:focus {
+              outline: none;
+            }
+
             &:active {
               background-color: @gray200;
+              outline: none;
             }
           }
         }
@@ -527,7 +537,7 @@
         padding: 10px;
         margin-top: 8px;
 
-        &:focus {
+        &:not([type="radio"]):not([type="checkbox"]):focus {
           background-color: @beige200;
           outline: 1px solid @gray300;
         }
@@ -610,6 +620,7 @@
 
           &:checked {
             background-size: cover;
+            border: none;
           }
         }
 
@@ -635,14 +646,24 @@
           height: 47px;
 
           &:first-child {
+            &:focus {
+              outline: none;
+            }
+
             &:active {
               background-color: @green200;
+              outline: none;
             }
           }
 
           &:last-child {
+            &:focus {
+              outline: none;
+            }
+
             &:active {
               background-color: @gray200;
+              outline: none;
             }
           }
         }
