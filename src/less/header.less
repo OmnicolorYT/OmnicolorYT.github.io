@@ -30,10 +30,6 @@
       color: @black;
     }
 
-    a:not(.top):not(.scroll):hover {
-      border-bottom: 2px solid @black;
-    }
-
     a.top {
       display: none;
     }
@@ -50,10 +46,6 @@
   &__nav {
     height: 88px;
     width: 100%;
-
-    &:not(.scroll) a:not(.top):not(.scroll):hover {
-      border-bottom: 2px solid @white;
-    }
 
     &__positioner {
       margin: auto;
@@ -108,12 +100,6 @@
       transition: 200ms ease;
     }
 
-    button:hover {
-      background: @orange200;
-      color: @white;
-      cursor: pointer;
-    }
-
     button:active {
       background: @orange100;
       color: @black;
@@ -127,12 +113,22 @@
 
     &__nav {
 
+      &:not(.scroll) a:not(.top):not(.scroll):hover {
+        border-bottom: 2px solid @white;
+      }
+
       &__positioner {
         width: 1168px;
 
         a {
           margin: 0 25px;
           padding: 0;
+        }
+      }
+
+      &.scroll {
+        a:not(.top):not(.scroll):hover {
+          border-bottom: 2px solid @black;
         }
       }
     }
@@ -152,6 +148,12 @@
       button {
         margin: 50px 0 0;
       }
+
+      button:hover {
+        background: @orange200;
+        color: @white;
+        cursor: pointer;
+      }
     }
   }
 }
@@ -162,11 +164,21 @@
 
     &__nav {
 
+      &:not(.scroll) a:not(.top):not(.scroll):hover {
+        border-bottom: 2px solid @white;
+      }
+
       &__positioner {
         width: 910px;
 
         a {
           margin: 0 15px;
+        }
+      }
+
+      &.scroll {
+        a:not(.top):not(.scroll):hover {
+          border-bottom: 2px solid @black;
         }
       }
     }
@@ -185,6 +197,12 @@
 
       button {
         margin: 50px 0 0;
+      }
+
+      button:hover {
+        background: @orange200;
+        color: @white;
+        cursor: pointer;
       }
     }
   }

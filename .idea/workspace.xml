@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Пересобраны файлы less" />
+    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Пересобраны файлы less">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/choose-tour.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/choose-tour.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/create-tour.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/create-tour.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/footer.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/header.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/stories.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/stories.less" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +113,8 @@
       <workItem from="1638818470788" duration="764000" />
       <workItem from="1638911751875" duration="452000" />
       <workItem from="1638912631268" duration="2219000" />
-      <workItem from="1638914905026" duration="685000" />
+      <workItem from="1638914905026" duration="1284000" />
+      <workItem from="1638960100252" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <created>1634931098087</created>

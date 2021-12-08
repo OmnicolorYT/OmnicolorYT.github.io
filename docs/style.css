@@ -328,12 +328,6 @@ h3 {
   .choose-tour__cards-card .card-info p {
     margin: 13px 0 0;
   }
-  .choose-tour__cards-card:hover {
-    cursor: pointer;
-  }
-  .choose-tour__cards-card:hover img {
-    transform: scale(1.2);
-  }
   .choose-tour__cards-card .card-btn {
     margin: auto auto 25px 25px;
     padding: 0 1.5px;
@@ -739,11 +733,6 @@ h3 {
     padding: 10px;
     margin-top: 8px;
   }
-  .create-tour form input:hover,
-  .create-tour form select:hover {
-    background-color: #F4F0E9;
-    cursor: pointer;
-  }
   .create-tour form input:focus,
   .create-tour form select:focus {
     background-color: #F4F0E9;
@@ -769,10 +758,6 @@ h3 {
     font-size: 16px;
     line-height: 142%;
     padding: 10px;
-  }
-  .create-tour form .comment:hover {
-    background-color: #F4F0E9;
-    cursor: pointer;
   }
   .create-tour form .comment:focus {
     background-color: #F4F0E9;
@@ -818,9 +803,6 @@ h3 {
   .create-tour form .accept-license input:checked {
     background-size: cover;
   }
-  .create-tour form .accept-license label a:hover {
-    text-decoration: underline;
-  }
   .create-tour form .accept-license label a:active {
     color: #286562;
     text-decoration: underline;
@@ -835,16 +817,8 @@ h3 {
     width: 134px;
     height: 47px;
   }
-  .create-tour form .buttons input:first-child:hover {
-    background-color: #3B7E7B;
-    cursor: pointer;
-  }
   .create-tour form .buttons input:first-child:active {
     background-color: #627F7E;
-  }
-  .create-tour form .buttons input:last-child:hover {
-    background-color: #F1F3F2;
-    cursor: pointer;
   }
   .create-tour form .buttons input:last-child:active {
     background-color: #D9DFDB;
@@ -870,12 +844,6 @@ footer .start-tour__info p {
 footer .start-tour__info p a {
   color: #1B1F2B;
 }
-footer .start-tour__info p a:hover {
-  text-decoration: underline;
-}
-footer .start-tour__info p a:active {
-  color: #286562;
-}
 footer .page-footer {
   width: 100%;
   display: flex;
@@ -892,9 +860,6 @@ footer .page-footer__socials {
 }
 footer .page-footer__socials a {
   display: flex;
-}
-footer .page-footer__socials a:hover {
-  border-bottom: 1px solid #1B1F2B;
 }
 @media (min-width: 930px) {
   footer .start-tour {
@@ -915,6 +880,12 @@ footer .page-footer__socials a:hover {
   footer .start-tour__info p {
     margin: 20px 0 0;
   }
+  footer .start-tour__info p a:hover {
+    text-decoration: underline;
+  }
+  footer .start-tour__info p a:active {
+    color: #286562;
+  }
   footer .page-footer {
     height: 28px;
     padding: 30px 0;
@@ -933,6 +904,9 @@ footer .page-footer__socials a:hover {
   }
   footer .page-footer__socials a {
     height: 28px;
+  }
+  footer .page-footer__socials a:hover {
+    border-bottom: 1px solid #1B1F2B;
   }
 }
 @media (max-width: 1500px) and (min-width: 930px) {
@@ -954,6 +928,12 @@ footer .page-footer__socials a:hover {
   footer .start-tour__info p {
     margin: 20px 0 0;
   }
+  footer .start-tour__info p a:hover {
+    text-decoration: underline;
+  }
+  footer .start-tour__info p a:active {
+    color: #286562;
+  }
   footer .page-footer {
     height: 28px;
     padding: 30px 0;
@@ -972,6 +952,9 @@ footer .page-footer__socials a:hover {
   }
   footer .page-footer__socials a {
     height: 28px;
+  }
+  footer .page-footer__socials a:hover {
+    border-bottom: 1px solid #1B1F2B;
   }
 }
 @media (max-width: 930px) and (min-width: 300px) {
@@ -1003,6 +986,9 @@ footer .page-footer__socials a:hover {
     width: 291px;
     text-align: center;
     margin: 20px 0 0;
+  }
+  footer .start-tour__info p a:active {
+    color: #286562;
   }
   footer .page-footer {
     height: 95px;
@@ -1060,9 +1046,6 @@ footer .page-footer__socials a:hover {
   height: 28px;
   color: #1B1F2B;
 }
-.page-header__nav.scroll a:not(.top):not(.scroll):hover {
-  border-bottom: 2px solid #1B1F2B;
-}
 .page-header__nav.scroll a.top {
   display: none;
 }
@@ -1076,9 +1059,6 @@ footer .page-footer__socials a:hover {
 .page-header__nav {
   height: 88px;
   width: 100%;
-}
-.page-header__nav:not(.scroll) a:not(.top):not(.scroll):hover {
-  border-bottom: 2px solid #ffffff;
 }
 .page-header__nav__positioner {
   margin: auto;
@@ -1124,11 +1104,6 @@ footer .page-footer__socials a:hover {
   border-radius: 10px;
   transition: 200ms ease;
 }
-.page-header__text button:hover {
-  background: #EFA501;
-  color: #ffffff;
-  cursor: pointer;
-}
 .page-header__text button:active {
   background: #F8E6BE;
   color: #1B1F2B;
@@ -1137,12 +1112,18 @@ footer .page-footer__socials a:hover {
   .page-header {
     height: 831px;
   }
+  .page-header__nav:not(.scroll) a:not(.top):not(.scroll):hover {
+    border-bottom: 2px solid #ffffff;
+  }
   .page-header__nav__positioner {
     width: 1168px;
   }
   .page-header__nav__positioner a {
     margin: 0 25px;
     padding: 0;
+  }
+  .page-header__nav.scroll a:not(.top):not(.scroll):hover {
+    border-bottom: 2px solid #1B1F2B;
   }
   .page-header__text h1 {
     margin: 119px 0 0;
@@ -1155,16 +1136,27 @@ footer .page-footer__socials a:hover {
   .page-header__text button {
     margin: 50px 0 0;
   }
+  .page-header__text button:hover {
+    background: #EFA501;
+    color: #ffffff;
+    cursor: pointer;
+  }
 }
 @media (max-width: 1180px) and (min-width: 930px) {
   .page-header {
     height: 831px;
+  }
+  .page-header__nav:not(.scroll) a:not(.top):not(.scroll):hover {
+    border-bottom: 2px solid #ffffff;
   }
   .page-header__nav__positioner {
     width: 910px;
   }
   .page-header__nav__positioner a {
     margin: 0 15px;
+  }
+  .page-header__nav.scroll a:not(.top):not(.scroll):hover {
+    border-bottom: 2px solid #1B1F2B;
   }
   .page-header__text h1 {
     margin: 119px 0 0;
@@ -1176,6 +1168,11 @@ footer .page-footer__socials a:hover {
   }
   .page-header__text button {
     margin: 50px 0 0;
+  }
+  .page-header__text button:hover {
+    background: #EFA501;
+    color: #ffffff;
+    cursor: pointer;
   }
 }
 @media (max-width: 930px) and (min-width: 300px) {
@@ -1570,15 +1567,6 @@ footer .page-footer__socials a:hover {
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
 }
-.stories__card:hover {
-  cursor: pointer;
-}
-.stories__card:hover img {
-  transform: scale(1.2);
-}
-.stories__card:hover .stories__card-links > a {
-  background-color: #286562;
-}
 .stories__card:active .stories__card-links > a {
   background-color: #EFA501;
 }
@@ -1608,9 +1596,6 @@ footer .page-footer__socials a:hover {
 }
 .stories__card-links .social a {
   margin-right: 0;
-}
-.stories__card-links .social a:hover {
-  border-bottom: 1px solid #ffffff;
 }
 @media (min-width: 930px) {
   .stories {
@@ -1642,6 +1627,15 @@ footer .page-footer__socials a:hover {
     padding-left: 30px;
     margin: 0;
   }
+  .stories__card:hover {
+    cursor: pointer;
+  }
+  .stories__card:hover img {
+    transform: scale(1.2);
+  }
+  .stories__card:hover .stories__card-links > a {
+    background-color: #286562;
+  }
   .stories__card-links {
     margin-top: 108px;
     height: 35px;
@@ -1657,6 +1651,9 @@ footer .page-footer__socials a:hover {
   .stories__card-links .social a {
     margin-top: 7px;
     margin-left: 35px;
+  }
+  .stories__card-links .social a:hover {
+    border-bottom: 1px solid #ffffff;
   }
 }
 @media (max-width: 1180px) and (min-width: 930px) {
@@ -1685,6 +1682,15 @@ footer .page-footer__socials a:hover {
     width: 554px;
     height: 224px;
   }
+  .stories__card:hover {
+    cursor: pointer;
+  }
+  .stories__card:hover img {
+    transform: scale(1.2);
+  }
+  .stories__card:hover .stories__card-links > a {
+    background-color: #286562;
+  }
   .stories__card-links {
     margin-top: 108px;
     height: 35px;
@@ -1700,6 +1706,9 @@ footer .page-footer__socials a:hover {
   .stories__card-links .social a {
     margin-top: 7px;
     margin-left: 35px;
+  }
+  .stories__card-links .social a:hover {
+    border-bottom: 1px solid #ffffff;
   }
 }
 @media (max-width: 930px) and (min-width: 300px) {
@@ -1724,12 +1733,6 @@ footer .page-footer__socials a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  .stories__card:hover {
-    cursor: pointer;
-  }
-  .stories__card:hover img {
-    transform: scale(1.2) translate(-40%, -40%);
   }
   .stories__card-description {
     margin: 20px 0 0;
