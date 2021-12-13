@@ -87,16 +87,25 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
+          position: relative;
 
           input {
             -webkit-appearance: none;
             border: none;
-            background: url("img/radiobutton.svg") left center no-repeat;
-            background-size: cover;
           }
 
-          input:checked {
-            background: url("img/radiobutton_checked.svg") left center no-repeat;
+          & > input + svg {
+            position: absolute;
+
+            circle {
+              display: none;
+            }
+          }
+
+          & > input:checked + svg {
+            circle {
+              display: block;
+            }
           }
         }
       }
@@ -106,25 +115,33 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-
-      label {
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-      }
+      position: relative;
 
       input {
         -webkit-appearance: none;
         border: none;
         border-radius: 0;
-        background: url("img/checkbox.svg") left center no-repeat;
+      }
 
-        &:checked {
-          background: url("img/checkbox_checked.svg") left center no-repeat;
+      & > input + svg {
+        position: absolute;
+
+        .check_mark {
+          display: none;
+        }
+      }
+
+      & > input:checked + svg {
+
+        .check_mark {
+          display: block;
         }
       }
 
       label {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
         color: @gray300;
 
         a {

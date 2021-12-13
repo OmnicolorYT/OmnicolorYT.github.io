@@ -403,36 +403,45 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .create-tour form .edge .radio-buttons label input {
   -webkit-appearance: none;
   border: none;
-  background: url("img/radiobutton.svg") left center no-repeat;
-  background-size: cover;
 }
-.create-tour form .edge .radio-buttons label input:checked {
-  background: url("img/radiobutton_checked.svg") left center no-repeat;
+.create-tour form .edge .radio-buttons label > input + svg {
+  position: absolute;
+}
+.create-tour form .edge .radio-buttons label > input + svg circle {
+  display: none;
+}
+.create-tour form .edge .radio-buttons label > input:checked + svg circle {
+  display: block;
 }
 .create-tour form .accept-license {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-}
-.create-tour form .accept-license label {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  position: relative;
 }
 .create-tour form .accept-license input {
   -webkit-appearance: none;
   border: none;
   border-radius: 0;
-  background: url("img/checkbox.svg") left center no-repeat;
 }
-.create-tour form .accept-license input:checked {
-  background: url("img/checkbox_checked.svg") left center no-repeat;
+.create-tour form .accept-license > input + svg {
+  position: absolute;
+}
+.create-tour form .accept-license > input + svg .check_mark {
+  display: none;
+}
+.create-tour form .accept-license > input:checked + svg .check_mark {
+  display: block;
 }
 .create-tour form .accept-license label {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color: #A6A6A6;
 }
 .create-tour form .accept-license label a {
