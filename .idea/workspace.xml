@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Убрана рамка на кнопках и радиобаттонах на всех вьюпортах">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Исправлены скачки радиобаттонов">
       <change beforePath="$PROJECT_DIR$/docs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/create-tour.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/create-tour.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,7 @@
       <workItem from="1638912631268" duration="2219000" />
       <workItem from="1638914905026" duration="1284000" />
       <workItem from="1638960100252" duration="1823000" />
-      <workItem from="1639399800368" duration="4502000" />
+      <workItem from="1639399800368" duration="4811000" />
     </task>
     <task id="LOCAL-00001" summary="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <created>1634931098087</created>
@@ -220,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638961151193</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Исправлены скачки радиобаттонов">
+      <created>1639404622740</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639404622740</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +255,7 @@
     <MESSAGE value="Пересобраны файлы less" />
     <MESSAGE value="Для мобильной версии убраны hover" />
     <MESSAGE value="Убрана рамка на кнопках и радиобаттонах на всех вьюпортах" />
-    <option name="LAST_COMMIT_MESSAGE" value="Убрана рамка на кнопках и радиобаттонах на всех вьюпортах" />
+    <MESSAGE value="Исправлены скачки радиобаттонов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлены скачки радиобаттонов" />
   </component>
 </project>

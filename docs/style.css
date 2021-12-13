@@ -431,6 +431,7 @@ h3 {
 }
 .create-tour form .accept-license > input + svg {
   position: absolute;
+  pointer-events: none;
 }
 .create-tour form .accept-license > input + svg .check_mark {
   display: none;
