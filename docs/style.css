@@ -872,7 +872,6 @@ footer .start-tour__info p a {
   color: #1B1F2B;
 }
 footer .page-footer {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: #F4F0E9;
@@ -986,10 +985,10 @@ footer .page-footer__socials a {
 }
 @media (max-width: 930px) and (min-width: 300px) {
   footer .start-tour {
-    margin: 75px auto;
     width: 291px;
     height: 285px;
     flex-direction: column;
+    margin: 75px auto;
   }
   footer .start-tour img {
     width: 130px;
@@ -1019,21 +1018,20 @@ footer .page-footer__socials a {
   }
   footer .page-footer {
     height: 95px;
-    width: 100%;
     padding: 21px 23px;
     box-sizing: border-box;
     flex-direction: column;
   }
   footer .page-footer p {
-    margin: 0;
     width: 318px;
     text-align: center;
+    margin: 0 auto;
   }
   footer .page-footer__socials {
     width: 318px;
-    margin: 0 2px;
     justify-content: flex-start;
     align-items: center;
+    margin: 0 auto;
   }
   footer .page-footer__socials img {
     width: 20px;

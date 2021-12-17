@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Исправлен баг при нажатии на checkbox, svg мешал работе checkbox`a" />
+    <list default="true" id="6e03ce4b-f031-49e5-b707-a658ef79f47e" name="Changes" comment="Исправлена маска на поле с телефоном, теперь возможен ввод только цифр">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/footer.less" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +112,8 @@
       <workItem from="1638912631268" duration="2219000" />
       <workItem from="1638914905026" duration="1284000" />
       <workItem from="1638960100252" duration="1823000" />
-      <workItem from="1639399800368" duration="5224000" />
+      <workItem from="1639399800368" duration="5507000" />
+      <workItem from="1639750963486" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="Прописаны стили .create-tour для всех вьюпортов. Незначительно изменены стили предыдущих секций.">
       <created>1634931098087</created>
@@ -229,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639404937272</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Исправлена маска на поле с телефоном, теперь возможен ввод только цифр">
+      <created>1639405203442</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1639405203442</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +274,7 @@
     <MESSAGE value="Убрана рамка на кнопках и радиобаттонах на всех вьюпортах" />
     <MESSAGE value="Исправлены скачки радиобаттонов" />
     <MESSAGE value="Исправлен баг при нажатии на checkbox, svg мешал работе checkbox`a" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлен баг при нажатии на checkbox, svg мешал работе checkbox`a" />
+    <MESSAGE value="Исправлена маска на поле с телефоном, теперь возможен ввод только цифр" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлена маска на поле с телефоном, теперь возможен ввод только цифр" />
   </component>
 </project>
